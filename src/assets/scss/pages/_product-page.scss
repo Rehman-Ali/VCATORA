@@ -1,0 +1,192 @@
+.product-content{
+    h2{
+        font-size: $font-size-lg;
+        font-weight: $font-weight-bolder;
+    }
+    .pro-heading-title{
+        padding-bottom: 35px;
+    }
+    
+    .product-detail-info{
+        .pro-badges{
+            .badge{
+                font-size: $font-size-base;
+            }
+        }
+        .pro-title{
+            font-size: ($font-size-lg + 1rem);
+            font-weight: $font-weight-bolder;
+        }
+        .pro-price{
+            h2{
+                font-weight: $font-weight-bolder;
+                font-size: ($font-size-lg + 0.5rem);
+                color: $secondary;
+
+                del{
+                    font-size: $font-size-lg ;
+                    color: $body-color-secondary;
+                    margin-right: 10px;
+                }
+            }
+        }
+        .pro-rating{
+            .fas{
+                color: #ffba0a;
+            }
+            .btn-link{
+                font-weight: $font-weight-bolder;
+                color: rgb(184, 184, 184);
+                margin-left: 10px;
+            }
+        }
+        .pro-infos{
+            margin-top: 15px;
+            margin-bottom: 15px;
+
+            .pro-single-info{
+                display: flex;
+                line-height: 24px;
+
+                b{
+                    font-size: $font-size-base;
+                    font-weight: $font-weight-bolder;
+                    color:$body-color;
+                    margin-right: 10px;
+                }
+
+                ul{
+                    display: inline-block;
+                    padding-left: 0;
+                    margin-bottom: 0;
+
+                    li{
+                        display: inline-block;
+
+                        &:after{
+                            content: ",";
+                        }
+                    }
+                }
+            }
+            
+        }
+        
+        
+        .pro-sub-buttons{
+            display: block;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            .buttons{
+                margin-bottom: 15px;
+            }
+            .btn{
+                padding: 0;
+                margin-right: 15px;
+
+                .fas{
+                    margin-right: 5px;
+                }
+            }
+
+            .sharethis-inline-share-buttons{
+                z-index: 1 !important;
+            }
+        }
+
+        .nav{
+            .nav-item{                   
+                    background-color: $white;
+                    border-color:$white;
+                    font-weight: $font-weight-bolder;
+                    color: color-yiq( $white);
+                    padding: 15px 20px;
+                    margin-right: 10px;
+                    text-align: center;
+            }
+            .active{
+                border-color: $body-bg-secondary;
+                background-color: $body-bg-secondary;
+            }
+        }
+
+        .tab-content{
+            .tab-pane{
+                padding: 15px;
+                border:1px solid $body-bg-secondary;
+                
+                .table{
+                    
+                    margin-bottom: 0;
+                }
+                p {
+                    color: $body-color-secondary;
+                    margin-bottom: 0;
+                }
+                ul{
+                    margin-top: 15px;
+                    color: $body-color-secondary;
+                }
+            }
+        }
+
+        .reviews{
+           
+         .review-bubbles{
+             .review-bubble-single{
+                 background-color: $body-bg-secondary;
+                 margin-bottom: 15px;
+                 padding: 15px;
+
+                 h4{
+                     margin-top: 10px;
+                     margin-bottom: 5px;
+                     font-weight: $font-weight-bolder;
+                 }
+                 span{
+                    
+                    color: rgb(184, 184, 184);
+                 }
+             }
+         }
+        }
+       
+        
+            
+        
+        
+        
+
+        
+        .pro-banner-detial {
+            padding: 30px 18px 0 18px;
+            border: $border-width solid $border-color;
+            background-color: $body-bg-secondary;
+            text-align: center;
+            .banner-single {
+                margin-bottom: 30px;
+                .fas{
+                    color: $secondary;
+                    font-size: 1.53125rem;
+                    margin-bottom: 0.5rem;
+                }
+                .block {
+                    font-size: 12px;
+                    font-weight: 600;
+                    h4 {
+                        font-weight: $font-weight-bolder;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        
+           
+ 
+     }
+     .related-product-content{
+         margin-top: 35px;
+     }
+}
+
+

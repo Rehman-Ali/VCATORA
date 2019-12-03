@@ -1,0 +1,58 @@
+// ....shop top bar
+
+.top-bar{
+    margin-bottom: 30px;
+    border: $border-width solid darken($color: $gray-300, $amount: 10%);
+    
+    .block{
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: 31px;
+        padding:0.275rem 0.55rem;
+
+        label {
+            margin: 0 10px;
+            margin-bottom: 0;
+            a{
+                padding: 5px;
+            }
+        }
+    }
+    .filter-block{
+        padding: 0;
+    }
+    .form-inline{
+        .form-group{
+            position: relative;
+            margin-top: 5px;
+            margin-bottom: 5px;
+
+            .form-control {
+                font-size: 13px;
+                height: 31px;
+                padding:0.275rem 0.55rem;
+                padding-right: 25px;
+
+                option{
+                    font-size: 12px;
+                }
+            }
+            &::before{
+                font-family:"Font Awesome 5 Free";
+                font-weight: 900; /* regular style/weight */
+                content: "\f0d7";
+                position: absolute;
+                top: 7px;
+                right: 10px;
+                color: color-yiq($bg-top-bar);
+                z-index: 0;
+            }
+            
+        }
+        label{
+            margin: 0 10px;
+        }
+    }
+}

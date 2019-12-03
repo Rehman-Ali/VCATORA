@@ -1,0 +1,93 @@
+// ....compare....
+
+.aboutus-content{
+  .bg-media{
+    background-color: $body-bg-secondary;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 60px;
+  }
+  .pro-heading-title{
+    padding-bottom: 35px;
+   padding-left: 0;
+  }
+  p{
+    color: $body-color-secondary;
+  }
+  video{
+    width: 100%;
+  }
+  .media{
+      .rounded-circle{
+        margin-right: 15px;
+        margin-bottom: 0;
+      }
+      .media-body{
+          h4{
+            font-weight: $font-weight-bolder;
+            font-size: $font-size-lg;
+              small{
+                font-size: $font-size-sm;
+                  color: $body-color-secondary;
+                  
+              }
+          }
+          p{
+            margin-bottom: 0;
+          }
+      }
+  }
+  
+   
+  .media-col{
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+    border-right: 0.2px solid $border-color;
+  }
+  .team-member{
+    text-align: center;
+    h3{
+      font-weight: $font-weight-bolder;
+      font-size: $font-size-lg;
+      margin-top: 15px;
+    }
+    p{
+      color: $body-color-secondary;
+      margin: 0;
+    }
+  }
+
+  .accordion-container{
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  .accordions{
+      .card-header{
+        a{
+          text-decoration: none;
+          .fas{
+            float: right;
+          }
+        }
+        a[aria-expanded="true"]:after{
+          content: "\f077";
+          font-family: "Font Awesome 5 Free"; font-weight: 900;
+          color: $body-color-secondary;
+          font-size: $font-size-sm;
+          position: absolute;
+          right: 20px;
+          top: 14px;
+      }
+      a[aria-expanded="false"]:after{
+          content: "\f078";
+          font-family: "Font Awesome 5 Free"; font-weight: 900;
+          color: $body-color-secondary;
+          font-size: $font-size-sm;
+          position: absolute;
+          right: 20px;
+          top: 14px;
+      }
+      }
+  }
+}

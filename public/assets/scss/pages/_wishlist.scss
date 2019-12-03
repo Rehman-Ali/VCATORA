@@ -1,0 +1,80 @@
+// ....compare....
+
+.wishlist-content{
+    margin-bottom: 30px;
+    
+ 
+    .pro-heading-title{
+        padding-bottom: 35px;
+    }
+    .media{
+            
+        
+        .media-thumb{
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            border:$border-width solid #ddd;
+            margin-right: 1rem;
+
+            img{
+                transform: translateY(-10%);
+            }
+        }
+
+        .media-body{
+            h4{
+                font-weight: $font-weight-bolder;
+            }
+            .pro-price {
+                display: flex;
+                align-items: center;
+
+                ins{
+                    font-size: ($font-size-lg + 0.35);
+                    font-weight: $font-weight-bolder;
+                    color: $secondary;
+                    text-decoration: none;
+                }
+    
+                del {
+                    font-size: $font-size-lg;
+                    font-weight: $font-weight-bolder;
+                    color: $body-color-secondary;
+                    text-decoration: line-through;
+                    margin-right: 10px;
+                }
+            }
+            .buttons{
+                display: flex;
+                align-items: center;
+                .btn{
+                    font-weight: $font-weight-bolder;
+                }
+                .input-group{
+                    margin-right: 5px;
+                }
+            }
+            p{
+                
+                color: $body-color-secondary;
+            }
+            .detail{
+                text-align: end;
+                p{
+                    margin-bottom: 5px;
+                    color: $body-color-secondary;
+                }
+                .share{
+                    margin-bottom: 5px;
+                    
+                
+                }
+    
+            }
+        }
+    }
+
+  
+}
+              

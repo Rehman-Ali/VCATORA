@@ -1,0 +1,75 @@
+// ....order....
+
+.order-detail-content{
+    margin-bottom: 30px;
+
+    .pro-heading-title{
+        padding-bottom: 35px;
+    }
+    h4{
+        font-weight: $font-weight-bolder;
+        small{
+            color: $body-color-secondary
+        }
+    }
+    .item-controls{
+                
+        .btn{
+            font-size: 12px;
+            border:1px solid $gray-300;
+            padding: 0 5px;
+
+            &:hover{
+                background-color: $secondary;
+                color:color-yiq($secondary);
+            }
+        }
+    }
+    .table{
+        background-color: #f8f9fa;
+       
+        th{
+            border-top: none;
+        }
+
+        td{
+            .item-price{
+                font-size: $font-size-lg;
+                font-weight: $font-weight-bolder;
+                color: $secondary;
+            }
+        }
+        
+    }
+    
+    .order-id{
+        margin-bottom: 30px;
+        tbody{
+            tr{
+                .pending{
+                    p{
+                        background-color: $secondary;
+                        color:color-yiq( $secondary);
+                        margin: 0;
+                        padding: 0 5px;
+                        width: 80px;
+                        text-align: center;
+                    
+                    }
+                   
+                }
+                
+                td{
+                    border-top: none;
+                    padding-left: 15px;
+                    color: $body-color-secondary
+                }
+            }
+        }
+    }
+    .comments-area{
+        background-color: $white;
+        margin-bottom: 15px;
+    }
+}
+              

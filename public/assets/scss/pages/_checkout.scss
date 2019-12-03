@@ -1,0 +1,172 @@
+.checkout-content{
+    margin-bottom: 30px;
+
+    .pro-heading-title{
+        padding-bottom: 35px;
+    }
+    .checkout-module{
+        // background-color: $white;
+        padding: 15px;
+        padding-top: 0;
+        width: 100%;
+        
+        .checkoutd-nav{
+            padding-left: 0;
+            padding-right: 0;
+    
+            .nav-item{
+                width: calc(25% - 17px);
+                margin-right: 17px;
+            }
+            .nav-item a{
+                background-color: #e1e1e1;
+                position: relative;
+                padding-left: 30px;
+                padding-bottom: 5px;
+            }
+            .nav-item a:after {
+                content: "";  
+                border-top:18.5px solid transparent;
+                border-bottom: 18.5px solid transparent;
+                border-left: 18.5px solid #e1e1e1;
+                position: absolute; right: -18px; top: 0;
+                z-index: auto;
+                -webkit-transition: 0.4s;
+    transition: 0.4s;
+            }
+            .nav-item a:before {
+                content: "";  
+                border-top: 18.5px solid transparent;
+                border-bottom: 18.5px solid transparent;
+                border-left: 18.5px solid  $body-bg;
+                position: absolute; left: 0; top: 0;
+                -webkit-transition: 0.4s;
+    transition: 0.4s;
+            }
+            .nav-item a.active{
+                background-color: $secondary;
+                -webkit-transition: 0.4s;
+    transition: 0.4s;
+            }
+            .nav-item a.active:after {
+                content: "";  
+                border-top: 18.5px solid transparent;
+                border-bottom: 18.5px solid transparent;
+                border-left: 18.5px solid $secondary;
+                position: absolute; right: -18px; top: 0;
+                z-index: auto;
+                -webkit-transition: 0.4s;
+    transition: 0.4s;
+            }
+            .nav-item a.active:before {
+                content: "";  
+                border-top: 18.5px solid transparent;
+                border-bottom: 18.5px solid transparent;
+                border-left: 18.5px solid  $body-bg;
+                position: absolute; left: 0; top: 0;
+                -webkit-transition: 0.4s;
+    transition: 0.4s;
+            }
+        }
+        
+        .form-group{
+            
+            
+           
+
+            .form-check-inline{
+
+                margin-right: 5px;
+                background-color: white;
+                height: 34px;
+                padding-left: 10px;
+                padding-right: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                float: left;
+            }
+        }
+        .btn{
+            margin-right: 15px;
+           
+        }
+    }
+
+    .right-table{
+        thead{
+            background-color: $white;
+            th{
+                border-top:none;
+                border-bottom: none;
+            }
+        }
+        tbody{
+            background-color: $white;
+        }
+    }
+    .item-detail{
+        float: left;
+
+        h4{
+            
+            small{
+                color: $body-color-secondary;
+            }
+        }
+
+
+        .item-controls{
+           
+            .btn{
+                font-size: 12px;
+                border:1px solid $gray-300;
+                padding: 0 5px;
+                margin-right: 5px;
+
+                &:hover{
+                    background-color: $secondary;
+                    color:color-yiq($secondary);
+                }
+            }
+        }
+    }
+
+    .item-price, .item-total{
+        font-size: 1.25rem;
+        color: $secondary;
+        font-weight: $font-weight-bolder;
+    } 
+
+    .tab-content{
+        .tab-pane{
+            h4{
+                font-weight: $font-weight-bolder;
+                margin-bottom: 15px;
+            }
+            .heading{
+                margin-top: 15px;
+                h4{
+                    margin-bottom: 0;
+                }
+            }
+            .top-table{
+                border-bottom: 1px solid #ddd;
+                thead{
+                    background-color: $white;
+                    tr{
+                        th{
+                            
+                            border-bottom: none;
+                        }
+                    }
+                }
+                tbody{
+                    background-color: $white;
+                   
+                    
+                }
+            }  
+        }
+    }
+}

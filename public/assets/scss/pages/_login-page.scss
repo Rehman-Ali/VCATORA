@@ -1,0 +1,46 @@
+.login-content{
+    .pro-heading-title{
+        padding-bottom: 25px;
+    }
+
+    .registration-process{
+        background-color: $white;
+    
+        
+        
+    }
+    .registration-socials{
+        background-color: $white;
+        padding:15px;
+        text-align: center;
+    }
+    
+}
+
+
+#registerTab{
+    border:none;
+    .nav-link{
+        font-size: $font-size-lg;
+        font-weight: $font-weight-bold;
+        text-align: center;
+        background-color: #f4f4f4;
+        border:none;
+
+        &.active{
+             background-color: $secondary;
+             color: color-yiq($secondary);
+             border:none;
+        }
+    }
+}
+#registerTabContent{
+
+    .registration-process{
+        background-color: #f4f4f4;
+        padding:30px 15px;
+    }
+    .registration-socials{
+        background-color: transparent;
+    }
+}

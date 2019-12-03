@@ -1,0 +1,111 @@
+.banners-content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .container-fluid{
+        padding-left: 18px; 
+        padding-right: 18px;
+
+        [class^=col]{
+            padding-right: 5px;
+            padding-left: 5px;
+
+        }
+        figure{
+            border-radius: $border-radius;
+            overflow: hidden;
+            margin-bottom: 0px;
+            width: 100%;
+            position: relative;
+
+
+            img{
+                width: 100%;
+                height: auto;
+            }
+            &.mt-image{
+                margin-top: 10px;
+            }
+        }
+        .banner-caption{
+            position: absolute;
+            width: 100%;
+            
+
+            h2{
+                font-weight: $font-weight-bolder;
+            }
+            h4{
+                color: $body-color-secondary;             
+                
+            }
+            
+            
+
+            &.left-caption{
+                top: 50%;
+                transform: translateY(-50%);
+                text-align: left;
+                left: 30px;
+
+            }
+            &.top-caption{
+                top: 30px;
+                transform: translateX(-50%);
+                text-align: center;
+                left: 50%;
+            }
+            &.right-caption{
+                right: 30px;
+                transform: translateY(-50%);
+                text-align: right;
+                top: 50%;
+            }
+            &.bottom-caption{
+                bottom: 30px;
+                transform: translateX(-50%);
+                text-align: center;
+                left: 50%;
+            }
+            &.center-caption{
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+        }
+
+      
+    
+        
+    }
+}
+
+
+
+.full-width-banner{
+    margin-bottom: 30px;
+
+    .banner-image{
+        border-radius: $border-radius;
+        overflow: hidden;
+        margin-bottom: 0;
+        // height: 270px;
+
+        a{
+            display: block;
+        }
+    }
+}
+
+.full-screen-banner{
+    margin-bottom: 30px;
+
+    .banner-image{
+        border-radius: $border-radius;
+        overflow: hidden;
+        margin-bottom: 0;
+        a{
+            display: block;
+        }
+    }
+}
